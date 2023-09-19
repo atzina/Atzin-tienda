@@ -1,0 +1,22 @@
+2023-09-18T23:31:31+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\xamppp\htdocs\tienda\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:284
+Stack trace:
+#0 C:\xamppp\htdocs\tienda\wp-includes\rest-api\class-wp-rest-server.php(1188): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\xamppp\htdocs\tienda\wp-includes\rest-api\class-wp-rest-server.php(1035): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\xamppp\htdocs\tienda\wp-includes\rest-api\class-wp-rest-server.php(447): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\xamppp\htdocs\tienda\wp-includes\rest-api.php(418): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\xamppp\htdocs\tienda\wp-includes\class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#5 C:\xamppp\htdocs\tienda\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xamppp\htdocs\tienda\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+# en C:\xamppp\htdocs\tienda\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php en la línea 284
+
+2023-09-18T23:39:17+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\xamppp\htdocs\tienda\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:284
+Stack trace:
+#0 C:\xamppp\htdocs\tienda\wp-includes\rest-api\class-wp-rest-server.php(1188): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\xamppp\htdocs\tienda\wp-includes\rest-api\class-wp-rest-server.php(1035): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\xamppp\htdocs\tienda\wp-includes\rest-api\class-wp-rest-server.php(447): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\xamppp\htdocs\tienda\wp-includes\rest-api.php(418): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\xamppp\htdocs\tienda\wp-includes\class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#5 C:\xamppp\htdocs\tienda\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xamppp\htdocs\tienda\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+# en C:\xamppp\htdocs\tienda\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php en la línea 284
+
